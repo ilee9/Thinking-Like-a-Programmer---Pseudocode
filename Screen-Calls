@@ -1,0 +1,8 @@
+start
+   input phoneNumber
+   input knownCallers
+   if phoneNumber IN knownCallers
+      willAnswer == True
+   else willAnswer == false
+   output willAnswer
+stop
